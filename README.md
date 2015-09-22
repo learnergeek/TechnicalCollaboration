@@ -20,7 +20,6 @@ https://github.com/sareeshv/promiseTest
 ============================
 I would like to explain the following code snippet. 
 
-
 var add = function (a) {
     return function (b) {
         return a + b;
