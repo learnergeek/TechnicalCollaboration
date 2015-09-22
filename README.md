@@ -1,6 +1,7 @@
 
 
 1. What are promises and how we can create promises in Jquery?
+---------------------------------------------------------------
 Ref Link: 
 http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt1-theory-and-semantics
 http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt2-practical-use
