@@ -18,3 +18,16 @@ https://github.com/sareeshv/promiseTest
 
 2. Closures
 ============================
+I would like to explain the following code snippet. 
+
+
+var add = function (a) {
+    return function (b) {
+        return a + b;
+    };
+};
+
+addFive will contain reference to inner function. And when addFive is called then 10 is passed as an argument. but inner function will have access to variable a which will have the value 5. Therefore it will return the result as 15.
+var addFive = add(5);
+
+alert(addFive(10));
