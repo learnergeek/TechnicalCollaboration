@@ -15,3 +15,6 @@ It provide the JavaScript developer a tool for working with asynchronous events.
 Sample codes:
 https://github.com/sareeshv/promiseTest
 
+
+2. Closures
+============================
