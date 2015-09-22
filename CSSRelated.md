@@ -10,4 +10,4 @@ We can create a sample project using SASS and try some CSS and can generate the 
 sass --watch path/sass-directory/styles.scss
 
 Ref the below link for samples and steps:
-- will update soon
+- https://github.com/sareeshv/PositionTest
