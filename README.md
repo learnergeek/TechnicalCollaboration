@@ -30,3 +30,5 @@ addFive will contain reference to inner function. And when addFive is called the
 var addFive = add(5);
 
 alert(addFive(10));
+3. Javascript
+============================
