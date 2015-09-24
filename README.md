@@ -30,5 +30,29 @@ addFive will contain reference to inner function. And when addFive is called the
 var addFive = add(5);
 
 alert(addFive(10));
-3. Javascript
-============================
+
+3. How to add/register and listen for a custom event using javascript
+====================================================================================
+
+Ref:
+https://msdn.microsoft.com/en-us/library/dn741342(v=vs.94).aspx
+
+In some cases we may have to add custom event and may need to listen for this event and can do some actions.
+
+For example, check the below scenario.
+
+Lets assume we have an iframe and we are getting the iframe src from an ajax call. In this case the iframe window height will only be set correctly after getting the url for the iframe and set to the src. So we can make use of custom event to trigger some actions after getting the actual height.
+
+we can trigger a custom event after getting the iframe url as shown below.
+
+document.dispatchEvent(new Event("windowHeightReady"));
+
+The above code will create an Event 'windowHeightReady' and will despatch the event and the corresponding listener can catch this.
+
+Example:
+var sampleFunction = myFunction(){ console.log('My sample function to trigger on dispatching a custom event'); };
+
+document.addEventListener('windowHeightReady', sampleFunction);
+
+For more details and sample refer the below link:
+https://github.com/sareeshv/customEvents
