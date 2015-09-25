@@ -1,4 +1,4 @@
-1. How to start work with SASS?
+How to start work with SASS?
 --------------------------------
 We can create a sample project using SASS and try some CSS and can generate the CSS on the fly using a watcher.
 1. Install SASS using the below command.
@@ -12,7 +12,7 @@ sass --watch path/sass-directory/styles.scss
 Ref the below link for samples and steps:
 https://github.com/sareeshv/PositionTest
 
-2. How to create a triangle in CSS
+How to create a triangle in CSS
 --------------------------------
 ```css
 #triangle-up {
