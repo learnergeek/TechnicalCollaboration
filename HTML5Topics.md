@@ -1,24 +1,24 @@
 
 
-Whats are the HTML5 features and TAGS
+#### Whats are the HTML5 features and TAGS
 ---------------------------------------------------------------
 	
 	* Multimedia support with audio, video tags, Easy form validation, canvas to draw, custom data attributes, 
 	drag and drop, new APIs(Page Visibility API, Fullscreen API, Geolocation
 	* New form elements and its usage.
 	
-LocalStorage and SessionStorage
+#### LocalStorage and SessionStorage
 ---------------------------------------------------------------
 
-HTML5 form elements types
+#### HTML5 form elements types
 ---------------------------------------------------------------
 	- email, url, tel, search, color, range, date, time, datalist, output.
 
-How to implement fallback logic for the browsers that doesn’t support HTML5/CSS3 features
+#### How to implement fallback logic for the browsers that doesn’t support HTML5/CSS3 features
 ---------------------------------------------------------------
 	- Know about html5shiv.js and modenizer 
 
-HTML form validation
+#### HTML form validation
 ---------------------------------------------------------------
 	- maxlength attribute
 	- required attribute
