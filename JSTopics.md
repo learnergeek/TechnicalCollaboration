@@ -1,6 +1,6 @@
 
 
-1. What are promises and how we can create promises in Jquery?
+What are promises and how we can create promises in Jquery?
 ---------------------------------------------------------------
 Ref Link: 
 http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt1-theory-and-semantics
@@ -16,7 +16,7 @@ Sample codes:
 https://github.com/sareeshv/promiseTest
 
 
-2. Closures
+Closures
 ============================
 I would like to explain the following code snippet. 
 ```javascript
@@ -34,7 +34,7 @@ var addFive = add(5);
 alert(addFive(10));
 ```
 
-3. How to add/register and listen for a custom event using javascript
+How to add/register and listen for a custom event using javascript
 ====================================================================================
 
 Ref:
