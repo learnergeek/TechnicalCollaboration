@@ -1,5 +1,5 @@
 #### How to start work with SASS?
---------------------------------
+
 We can create a sample project using SASS and try some CSS and can generate the CSS on the fly using a watcher.
 1. Install SASS using the below command.
   
