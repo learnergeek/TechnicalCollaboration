@@ -33,6 +33,11 @@ addFive will contain reference to inner function. And when addFive is called the
 var addFive = add(5);
 alert(addFive(10));
 ```
+Ref:
+http://htmldog.com/guides/javascript/advanced/closures/#
+http://jibbering.com/faq/notes/closures/#clClose
+https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch1.md
+http://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/
 
 3.How to add/register and listen for a custom event using javascript
 ====================================================================================
