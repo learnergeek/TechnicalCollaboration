@@ -11,3 +11,14 @@ sass --watch path/sass-directory/styles.scss
 
 Ref the below link for samples and steps:
 - https://github.com/sareeshv/PositionTest
+- 
+2. How to create a triangle
+--------------------------------
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
