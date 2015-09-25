@@ -12,7 +12,7 @@ sass --watch path/sass-directory/styles.scss
 Ref the below link for samples and steps:
 https://github.com/sareeshv/PositionTest
 
-2. How to create a triangle
+2. How to create a triangle in CSS
 --------------------------------
 ```css
 #triangle-up {
