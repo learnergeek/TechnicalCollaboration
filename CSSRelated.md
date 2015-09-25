@@ -13,7 +13,7 @@ Ref the below link for samples and steps:
 https://github.com/sareeshv/PositionTest
 
 #### How to create a triangle in CSS
---------------------------------
+
 ```css
 #triangle-up {
     width: 0;
@@ -26,28 +26,28 @@ https://github.com/sareeshv/PositionTest
 Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
 
 #### What is position and its attributes
---------------------------------
+
 
 #### What is z-index
---------------------------------
+
 
 #### What are the CSS3 features
---------------------------------
+
 
 #### How to create a circle
---------------------------------
+
 
 #### How to create the text inside a circle in CSS
---------------------------------
+
 
 #### What is RWD
---------------------------------
+
 
 #### What is media queries
---------------------------------
+
 
 #### Why to use bootstrap? How to achieve the same without bootstrap?
---------------------------------
+
 
 #### CSS3 animations
---------------------------------
+
