@@ -55,7 +55,9 @@ The above code will create an Event 'windowHeightReady' and will despatch the ev
 
 Example:
 ```javascript
-var sampleFunction = myFunction(){ console.log('My sample function to trigger on dispatching a custom event'); };
+var sampleFunction = myFunction(){ 
+console.log('My sample function to trigger on dispatching a custom event'); 
+};
 
 document.addEventListener('windowHeightReady', sampleFunction);
 ```
