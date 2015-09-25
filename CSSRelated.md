@@ -24,3 +24,33 @@ How to create a triangle in CSS
   }
 ```
 Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
+
+What is position and its attributes
+--------------------------------
+
+What is z-index
+--------------------------------
+
+What are the CSS3 features
+--------------------------------
+
+How to create a circle
+--------------------------------
+
+How to create the text inside a circle in CSS
+--------------------------------
+
+How to create a triangle
+--------------------------------
+
+What is RWD
+--------------------------------
+
+What is media queries
+--------------------------------
+
+Why to use bootstrap? How to achieve the same without bootstrap?
+--------------------------------
+
+CSS3 animations
+--------------------------------
