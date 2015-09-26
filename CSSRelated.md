@@ -1,5 +1,5 @@
-How to start work with SASS?
---------------------------------
+#### How to start work with SASS?
+
 We can create a sample project using SASS and try some CSS and can generate the CSS on the fly using a watcher.
 1. Install SASS using the below command.
   
@@ -12,8 +12,8 @@ sass --watch path/sass-directory/styles.scss
 Ref the below link for samples and steps:
 https://github.com/sareeshv/PositionTest
 
-How to create a triangle in CSS
---------------------------------
+#### How to create a triangle in CSS
+
 ```css
 #triangle-up {
     width: 0;
@@ -25,32 +25,32 @@ How to create a triangle in CSS
 ```
 Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
 
-What is position and its attributes
---------------------------------
+#### What is position and its attributes
 
-What is z-index
---------------------------------
 
-What are the CSS3 features
---------------------------------
+#### What is z-index
 
-How to create a circle
---------------------------------
 
-How to create the text inside a circle in CSS
---------------------------------
+#### What are the CSS3 features
 
-How to create a triangle
---------------------------------
 
-What is RWD
---------------------------------
+#### How to create a circle
 
-What is media queries
---------------------------------
 
-Why to use bootstrap? How to achieve the same without bootstrap?
---------------------------------
+#### How to create the text inside a circle in CSS
 
-CSS3 animations
---------------------------------
+
+#### How to create a triangle
+
+
+#### What is RWD
+
+
+#### What is media queries
+
+
+#### Why to use bootstrap? How to achieve the same without bootstrap?
+
+
+#### CSS3 animations
+
