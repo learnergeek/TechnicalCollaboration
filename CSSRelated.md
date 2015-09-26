@@ -35,8 +35,27 @@ Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
 
 
 #### How to create a circle
+```html
+<!-- full width container -->
+<div style="width: 100%; margin:10px 0;">
+    <div class="circle"></div>
+</div>
 
+<!-- half width container demo -->
+<div style="width: 50%; margin:10px 0;">
+    <div class="circle"></div>
+</div>
+```
+```css
+.circle {
+  height: auto;
+  padding-top: 25%;
+  width: 25%;
+  border-radius: 50%;
+  background: red;
+}
 
+```
 #### How to create the text inside a circle in CSS
 
 
