@@ -40,9 +40,6 @@ Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
 #### How to create the text inside a circle in CSS
 
 
-#### How to create a triangle
-
-
 #### What is RWD
 
 
