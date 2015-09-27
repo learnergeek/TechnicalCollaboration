@@ -136,10 +136,12 @@ http://www.codeproject.com/Articles/303796/How-to-Implement-Inheritance-in-Javas
 Sample:
 
 HTML:
- 		<form action="/ajax-upload" id="ajax-attachment-upload-form">
+```html
+ 	<form action="/ajax-upload" id="ajax-attachment-upload-form">
             <input type="file" name="attachment" id="attachment" multiple accept=".xml"/>
             <input type="submit" value="Upload" />
         </form>
+```
 
 JS:
 ```javascript
@@ -184,19 +186,13 @@ http://stackoverflow.com/questions/1536164/how-to-change-the-context-of-a-functi
 Ref:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
-14.difference between service and factory
----------------------------------------
-Ref:
-http://stackoverflow.com/questions/23074875/factory-and-service-in-angularjs
-http://www.codelord.net/2015/04/28/angularjs-whats-the-difference-between-factory-and-service/
-
-15.javascript hoisting
+14.javascript hoisting
 ----------------------------
 In JavaScript, a variable can be declared after it has been used. In other words; a variable can be used before it has been declared.
 Ref:
 http://www.w3schools.com/js/js_hoisting.asp
 
-16.jquery animations and css transitions
+15.jquery animations and css transitions
 ----------------------------------------------------------------------------------------------
 Ref:
 https://css-tricks.com/myth-busting-css-animations-vs-javascript/
