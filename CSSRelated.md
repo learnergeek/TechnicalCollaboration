@@ -60,10 +60,27 @@ Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
 
 
 #### What is RWD
+Make pages that look great at any size.
+RWD uses so-called breakpoints to determine how the layout of a site will appear: one design is used above a breakpoint and another design is applied below that breakpoint. The breakpoints are commonly based on the width of the browser.
 
+The same HTML is served to all devices, using CSS (which determines the layout of webpage) to change the appearance of the page. Rather than creating a separate site and corresponding codebase for wide-screen monitors, desktops, laptops, tablets and phones of all sizes, a single codebase can support users with differently sized viewports.
+
+In responsive design, page elements reshuffle as the viewport grows or shrinks. A three-column desktop design may reshuffle to two columns for a tablet and a single column for a smartphone. Responsive design relies on proportion-based grids to rearrange content and design elements.
+
+The use of a single codebase can make development faster, compared to developing 3 or 4 distinct sites, and makes maintenance easier over time, as one set of code and content needs to be updated rather than 3 or 4. RWD is also relatively “future-proof” in that it can support new breakpoints needed at any time. If a 5-inch device or 15-inch device takes off in the market, the code can support the new devices. RWD doesn’t tie design to a particular device.
+
+[Ref: http://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/]
+
+[Ref: http://www.nngroup.com/articles/responsive-web-design-definition/]
+
+Visual ref: http://www.starbucks.com/
 
 #### What is media queries
+CSS3 media queries to detect the width of the web browser window and apply CSS accordingly
 
+Ref: http://cssmediaqueries.com/
+Ref: http://www.smashingmagazine.com/2010/07/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/
+Ref: http://mediaqueri.es/
 
 #### Why to use bootstrap? How to achieve the same without bootstrap?
 
