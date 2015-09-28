@@ -7,7 +7,7 @@
 	* New form elements and its usage.
 	
 #### LocalStorage and SessionStorage
-
+Cookies are small text files that websites place in a browser for tracking or login purposes. But localStorage and sessionStorage are new objects, both of which are storage specifications but vary in scope and duration. Of the two, localStorage is permanent and website-specific whereas sessionStorage only lasts as long as the duration of the longest open tab.
 
 #### HTML5 form elements types
 
