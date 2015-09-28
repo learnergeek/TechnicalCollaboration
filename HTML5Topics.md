@@ -15,7 +15,16 @@ Cookies are small text files that websites place in a browser for tracking or lo
 
 #### HTML5 form elements types
 
-	- email, url, tel, search, color, range, date, time, datalist, output.
+- email
+- url
+- tel 
+- search 
+- color 
+- range
+- date
+- time
+- datalist
+- output and etc.
 
 #### How to implement fallback logic for the browsers that doesn’t support HTML5/CSS3 features
 
@@ -23,7 +32,7 @@ Cookies are small text files that websites place in a browser for tracking or lo
 
 #### HTML form validation
 
-	- maxlength attribute
-	- required attribute
-	- novalidate attribute
-	- pattern attribute with some regular expression
+- maxlength attribute
+- required attribute
+- novalidate attribute
+- pattern attribute with some regular expression
