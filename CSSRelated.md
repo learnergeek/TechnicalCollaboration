@@ -58,6 +58,24 @@ Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
 ```
 #### How to create the text inside a circle in CSS
 
+Set the same value to width, height and line-height (to center the text vertically). You also need to use half of that value to the border radius. This solution always renders a circle, regardless of content length.
+
+span {
+  display: block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+
+  -moz-border-radius: 30px; /* or 50% */
+  border-radius: 30px; /* or 50% */
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+Ref: http://jsfiddle.net/MafjT/
 
 #### What is RWD
 Make pages that look great at any size.
