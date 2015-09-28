@@ -246,7 +246,6 @@ Then in the browser if you observe the source map will be generated and the debu
 
 
 #### SomeTricks for Debugging:
---------------------------
 
 While debugging if you need to add some dynamic code and if you want to debug those scripts. Then also you can use this source mapping.
 
