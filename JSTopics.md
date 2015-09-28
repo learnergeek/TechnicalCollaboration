@@ -214,7 +214,7 @@ Pretty much any language that compiles to JavaScript.
 Example:
 If we are using the grunt build tool(with uglify) and if there is a task configured then add the following line:
 
-	```javascript
+```javascript
 	grunt.initConfig({
 		:
 		:
@@ -238,7 +238,7 @@ If we are using the grunt build tool(with uglify) and if there is a task configu
 		'uglify',
 		:
 	]);
-	```
+```
 	
 The above config will create the minification and concatenation using the 'Uglify' and create the source map file for the curresponding files.
 
