@@ -29,6 +29,11 @@ Ref: http://stackoverflow.com/questions/7073484/how-do-css-triangles-work
 
 
 #### What is z-index
+The z-index property determines the stack level of an HTML element. The “stack level” refers to the element’s position on the Z axis (as opposed to the X axis or Y axis). A higher z-index value means the element will be closer to the top of the stacking order. This stacking order runs perpendicular to the display, or viewport.
+
+Ref: http://www.smashingmagazine.com/2009/09/the-z-index-css-property-a-comprehensive-look/
+
+Ref: http://www.cssmojo.com/extras/everything_you_always_wanted_to_know_about_z-index_but_were_afraid_to_ask/
 
 
 #### What are the CSS3 features
