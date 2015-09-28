@@ -83,6 +83,20 @@ Ref: http://www.smashingmagazine.com/2010/07/how-to-use-css3-media-queries-to-cr
 Ref: http://mediaqueri.es/
 
 #### Why to use bootstrap? How to achieve the same without bootstrap?
+Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+
+It provides a faster, easier, and less repetitive solution to presentation, which will no doubt appeal to any seasoned web/app developer.Twitter Bootstrap does have some amazing built-in features, namely:
+
+- A fluid grid layout
+- Responsive design
+- Custom form elements
+- Typography
+- JavaScript interaction
+- Cross-browser compatibility
+
+Ref: http://getbootstrap.com/getting-started/
+Ref: http://bootsnipp.com/
+Ref: http://www.bootply.com/
 
 
 #### CSS3 animations
