@@ -36,3 +36,11 @@ Know about html5shiv.js and modenizer
 - required attribute
 - novalidate attribute
 - pattern attribute with some regular expression
+
+#### What is inline and block element
+
+A block-level element is an element that creates large blocks of content like paragraphs or page divisions. They start new lines of text when you use them, and can contain other blocks as well as inline elements and text or data.
+
+An inline element is an element that define text or data in the document like STRONG makes the enclosed text strongly emphasized and Q says the enclosed text is a quotation. They don't start new lines when you use them, and they generally only contain other inline tags and text or data. Or they include nothing at all, like the BR tag.
+
+Ref: http://www.impressivewebs.com/difference-block-inline-css/
