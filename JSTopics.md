@@ -196,3 +196,85 @@ http://www.w3schools.com/js/js_hoisting.asp
 
 Ref:
 https://css-tricks.com/myth-busting-css-animations-vs-javascript/
+
+#### how to use source map for debugging a minified/compressed script file?
+
+When you build the application for production, along with minifying and combining your JavaScript files, 
+you can generate a source map which holds information about your original files.
+
+The minification and creating the source map file can be created using multiple tools like Closure compiler or Uglify
+
+In the future we could easily use almost any language as though it were supported natively in the browser with source maps:
+
+CoffeeScript
+ECMAScript 6 and beyond
+SASS/LESS and others
+Pretty much any language that compiles to JavaScript.
+
+Example:
+If we are using the grunt build tool(with uglify) and if there is a task configured then add the following line:
+
+	```javascript
+	grunt.initConfig({
+		:
+		:
+		:
+		uglify: {
+			generated: {
+				options: {
+					sourceMap: true
+				}
+			}
+		}
+		:
+		:
+		:
+		:
+		});		
+		
+		grunt.registerTask('build', [
+		:
+		:
+		'uglify',
+		:
+	]);
+	```
+	
+The above config will create the minification and concatenation using the 'Uglify' and create the source map file for the curresponding files.
+
+Then in the browser if you observe the source map will be generated and the debugging can be done on the original file instead of the minified script file.	
+
+
+SomeTricks for Debugging:
+--------------------------
+
+While debugging if you need to add some dynamic code and if you want to debug those scripts. Then also you can use this source mapping.
+
+from the console:
+Add some scripts and press enter:
+```javascript
+window.addEventListener('scroll', function(e){ 
+
+console.log(document.body.scrollTop);
+
+});
+```
+
+The above code will create a scroll event for the window and it will print the scrol position.
+Lets assume if you want to debug this and to add some modification.
+
+Add the below line in the console.
+//# sourceURL=myDynamicScript.js
+
+Then a new file will be added to the source section in the developer tool and we can easily debug this script.
+This will help in adding and testing some UI functionality before deploying the code.
+
+
+Ref:
+https://developer.chrome.com/devtools/docs/javascript-debugging?hl=ES#source-maps
+https://developers.google.com/closure/compiler/docs/gettingstarted_app
+http://code.tutsplus.com/tutorials/source-maps-101--net-29173
+https://github.com/gruntjs/grunt-contrib-uglify
+http://devtoolsecrets.com/secret/debugging-use-javascript-source-maps.html
+https://developers.google.com/closure/compiler/
+http://lisperator.net/uglifyjs/codegen#source-map
