@@ -103,3 +103,5 @@ Ref: http://www.bootply.com/
 
 #### CSS3 animations
 
+Ref: http://learn.shayhowe.com/advanced-html-css/transitions-animations/
+
