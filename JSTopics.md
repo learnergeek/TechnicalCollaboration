@@ -245,7 +245,7 @@ The above config will create the minification and concatenation using the 'Uglif
 Then in the browser if you observe the source map will be generated and the debugging can be done on the original file instead of the minified script file.	
 
 
-SomeTricks for Debugging:
+#### SomeTricks for Debugging:
 --------------------------
 
 While debugging if you need to add some dynamic code and if you want to debug those scripts. Then also you can use this source mapping.
@@ -271,10 +271,17 @@ This will help in adding and testing some UI functionality before deploying the 
 
 
 Ref:
+
 https://developer.chrome.com/devtools/docs/javascript-debugging?hl=ES#source-maps
+
 https://developers.google.com/closure/compiler/docs/gettingstarted_app
+
 http://code.tutsplus.com/tutorials/source-maps-101--net-29173
+
 https://github.com/gruntjs/grunt-contrib-uglify
+
 http://devtoolsecrets.com/secret/debugging-use-javascript-source-maps.html
+
 https://developers.google.com/closure/compiler/
+
 http://lisperator.net/uglifyjs/codegen#source-map
