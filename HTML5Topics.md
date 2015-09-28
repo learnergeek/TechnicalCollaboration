@@ -28,7 +28,7 @@ Cookies are small text files that websites place in a browser for tracking or lo
 
 #### How to implement fallback logic for the browsers that doesn’t support HTML5/CSS3 features
 
-	- Know about html5shiv.js and modenizer 
+Know about html5shiv.js and modenizer 
 
 #### HTML form validation
 
