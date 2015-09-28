@@ -95,7 +95,9 @@ It provides a faster, easier, and less repetitive solution to presentation, whic
 - Cross-browser compatibility
 
 Ref: http://getbootstrap.com/getting-started/
+
 Ref: http://bootsnipp.com/
+
 Ref: http://www.bootply.com/
 
 
