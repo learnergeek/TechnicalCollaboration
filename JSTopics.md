@@ -1,7 +1,7 @@
 
 
-What are promises and how we can create promises in Jquery?
----------------------------------------------------------------
+#### What are promises and how we can create promises in Jquery?
+
 Ref Link: 
 http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt1-theory-and-semantics
 http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt2-practical-use
@@ -16,8 +16,8 @@ Sample codes:
 https://github.com/sareeshv/promiseTest
 
 
-Closures
-============================
+#### Closures
+
 I would like to explain the following code snippet. 
 ```javascript
 var add = function (a) {
@@ -39,8 +39,8 @@ http://jibbering.com/faq/notes/closures/#clClose
 https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch1.md
 http://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/
 
-How to add/register and listen for a custom event using javascript
-====================================================================================
+#### How to add/register and listen for a custom event using javascript
+
 
 Ref:
 https://msdn.microsoft.com/en-us/library/dn741342(v=vs.94).aspx
@@ -69,8 +69,8 @@ document.addEventListener('windowHeightReady', sampleFunction);
 For more details and sample refer the below link:
 https://github.com/sareeshv/customEvents
 
-Scope
------------------
+#### Scope
+
 Scope is the set of variables you have access to. 
 JavaScript has two scopes – global and local. 
 Any variable declared outside of a function belongs to the global scope, and is therefore accessible from anywhere in your code. 
@@ -79,8 +79,8 @@ Ref:
 http://www.w3schools.com/js/js_scope.asp
 http://hangar.herokuapp.com/javascript/guide
 
-call and apply
--------------
+#### call and apply
+
 The difference is that apply lets you invoke the function with arguments as an array; call requires the parameters be listed explicitly.
 Syntax:
 ```javascript
@@ -94,27 +94,27 @@ http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-a
 http://hangar.runway7.net/javascript/difference-call-apply
 
 
-css transitions
------------------
+#### css transitions
+
 CSS transitions, provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time.
 
 Ref:
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
 http://www.w3schools.com/css/css3_transitions.asp
 
-jquery debounce and throttle
-----------------------------------
+#### jquery debounce and throttle
+
 Both throttling and debouncing will rate-limit execution of a function
 
 Ref: 
 http://benalman.com/projects/jquery-throttle-debounce-plugin/
 
-cross domain requests-in-javascript
--------------------------------------
+#### cross domain requests-in-javascript
+
 Ref: https://jvaneyck.wordpress.com/2014/01/07/cross-domain-requests-in-javascript/
 
-promise and callback function.
--------------------------------
+#### promise and callback function.
+
 The calling code can then wait until that promise is fulfilled before executing the next step. To do so, the promise has a method named then, which accepts a function that will be invoked when the promise has been fulfilled. 
 
 Ref:
@@ -122,8 +122,8 @@ https://www.quora.com/Whats-the-difference-between-a-promise-and-a-callback-in-J
 http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt2-practical-use
 
 
-Inheritance in javascript
------------------------------------------------
+#### Inheritance in javascript
+
 The JavaScript object oriented paradigm is prototype based. There are no "classes", just objects.
 
 You can implement inheritance in different ways. The two more popular alternatives are the "pseudo-classical" and the "prototypal" forms.
@@ -131,8 +131,8 @@ Ref:
 http://stackoverflow.com/questions/1586915/performing-inheritance-in-javascript
 http://www.codeproject.com/Articles/303796/How-to-Implement-Inheritance-in-Javascript
 
-file uploading using html
-------------------------------------
+#### file uploading using html
+
 Sample:
 
 HTML:
@@ -173,26 +173,26 @@ JS:
 	});
 ```		
 
-change the context of any function
------------------------------------------
+#### change the context of any function
+
 Using Call() And Apply()
 
 Ref:
 http://www.bennadel.com/blog/2265-changing-the-execution-context-of-javascript-functions-using-call-and-apply.htm
 http://stackoverflow.com/questions/1536164/how-to-change-the-context-of-a-function-in-javascript
 
-functionality of 'this' keyword
---------------------------------
+#### functionality of 'this' keyword
+
 Ref:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
-javascript hoisting
-----------------------------
+#### javascript hoisting
+
 In JavaScript, a variable can be declared after it has been used. In other words; a variable can be used before it has been declared.
 Ref:
 http://www.w3schools.com/js/js_hoisting.asp
 
-jquery animations and css transitions
-----------------------------------------------------------------------------------------------
+#### jquery animations and css transitions
+
 Ref:
 https://css-tricks.com/myth-busting-css-animations-vs-javascript/
