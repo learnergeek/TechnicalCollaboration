@@ -2,8 +2,8 @@
 
 #### Whats are the HTML5 features and TAGS
 	
-	- Multimedia support with audio, video tags
-	- Easy form validation
+	* Multimedia support with audio, video tags
+	* Easy form validation
 	- canvas to draw
 	- custom data attributes 
 	- drag and drop, 
