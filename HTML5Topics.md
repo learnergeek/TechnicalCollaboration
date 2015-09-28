@@ -44,3 +44,10 @@ A block-level element is an element that creates large blocks of content like pa
 An inline element is an element that define text or data in the document like STRONG makes the enclosed text strongly emphasized and Q says the enclosed text is a quotation. They don't start new lines when you use them, and they generally only contain other inline tags and text or data. Or they include nothing at all, like the BR tag.
 
 Ref: http://www.impressivewebs.com/difference-block-inline-css/
+
+#### What is semantic html
+Semantics within HTML is the practice of giving content on the page meaning and structure by using the proper element. Semantic code describes the value of content on a page, regardless of the style or appearance of that content. There are several benefits to using semantic elements, including enabling computers, screen readers, search engines, and other devices to adequately read and understand the content on a web page. Additionally, semantic HTML is easier to manage and work with, as it shows clearly what each piece of content is about.
+
+Ref: http://learn.shayhowe.com/html-css/getting-to-know-html/
+
+Ref: http://vanseodesign.com/web-design/semantic-html/
